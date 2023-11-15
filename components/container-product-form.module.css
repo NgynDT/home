@@ -1,0 +1,46 @@
+.itemProductsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 416px;
+  height: 613px;
+}
+.lineBoxyRaglan {
+  display: inline-block;
+  width: 230px;
+}
+.div,
+.lineBoxyRaglan {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.priceName {
+  position: absolute;
+  top: 497px;
+  left: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.image1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 416px;
+  height: 482px;
+  object-fit: cover;
+}
+.itemProducts {
+  position: relative;
+  width: 416px;
+  height: 613px;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-work-sans);
+}

@@ -1,0 +1,127 @@
+.listProductsPantsChild {
+  position: relative;
+  background-color: var(--color-white);
+  width: 1367px;
+  height: 932px;
+  z-index: 0;
+}
+.newPants {
+  position: absolute;
+  margin: 0 !important;
+  top: 100px;
+  left: 0;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1367px;
+  height: 46px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.itemProductsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 416px;
+  height: 613px;
+}
+.blankLine {
+  margin: 0;
+}
+.fabricTrackPantsContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.fabricTrackPantsContainer {
+  display: flex;
+  align-items: center;
+  width: 236px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.div,
+.fabricTrackPantsContainer {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.priceName {
+  position: absolute;
+  top: 497px;
+  left: 25.5px;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.image1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 416px;
+  height: 482px;
+  object-fit: cover;
+}
+.itemProducts {
+  position: relative;
+  width: 416px;
+  height: 613px;
+  z-index: 0;
+}
+.xemTtC {
+  position: absolute;
+  top: 15px;
+  left: 56px;
+  line-height: 24px;
+  display: inline-block;
+  width: 87px;
+  height: 31px;
+}
+.button,
+.listProductItems {
+  margin: 0 !important;
+  position: absolute;
+}
+.button {
+  top: 622px;
+  left: 584px;
+  background-color: var(--color-red);
+  width: 199px;
+  height: 51px;
+  z-index: 3;
+  text-align: center;
+  color: var(--color-white);
+}
+.listProductItems {
+  top: 204px;
+  left: 0;
+  width: 1367px;
+  height: 691px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-41xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.listProductsPants {
+  position: absolute;
+  top: 2118px;
+  left: 37px;
+  height: 932px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-work-sans);
+}
